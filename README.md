@@ -8,4 +8,8 @@ integrationPackage, integrationName, installedFlag, authenticationReadyFlag, aut
 values (REPLACE(UUID(),'-',''),
 'securesubmit', 'SecureSubmit', 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, now(), now(), NULL, NULL)
 
+Copy files under slatwall_install to appropriate location.  They are located in directory structure that should match your install.
+
+Search for lines of code with TODO to find manual updates made to slatwall-checkout.cfm
+Make manual updates to slatwall_install\default\includes\themes\MuraBootstrap\templates\slatwall-checkout.cfm
 
